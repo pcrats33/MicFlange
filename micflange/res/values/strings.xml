@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mic Flange</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Record something</string>
+	<string name="helptitle">Mic Flange \u00A9 2013 Rick Tilley</string>
+	<string name="helpdesc">\n
+	    This app is designed to record sound through the android microphone and then play
+	    it back at a variable changing speed.  You can save the final result as a .wav file.
+	\n</string>
+	<string name="helpTgraph">
+	The Graph:</string>
+	<string name="helpgraph">
+	    You can touch-draw on the graph which represents the dt/t (time derivative over time).
+	    That is, the speed of playback over the time of playback.  This is how you warp, or
+	    \'flange\' the sound.\n</string>
+	<string name="helpTbuttons">
+	  Buttons:</string>
+	  <string name="helpbuttons">
+	    Push record and start speaking into the mic.  Hit the button again to stop, or it will
+	    stop after a certain time limit.  Press the tone button to play, you can also click again
+	    to cancel playback.  Once you have played the tone, the Save button should appear with a 
+	    yellow background.  You may now save the sound to a .wav file.  You may need to convert
+	    this file if your phone does not support .wav playback.  Once the file is saved, it will
+	    give you the directory and filename at the top of the screen.  The Save button background
+	    will turn gray indicating the last playback has been saved.  Should you play the tone again,
+	    the Save button will turn yellow tinted again, indicating the latest playback has not been saved.</string>
+</resources>

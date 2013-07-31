@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".PlaySound" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    <ImageView
+        android:id="@+id/ppal"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_launcher"
+        android:visibility="invisible"
+         />
+<View 
+  android:layout_width="fill_parent"
+  android:layout_height="2dip"
+  android:background="#FF888888" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+		android:scaleType="fitCenter"
+		android:adjustViewBounds="true"
+        android:src="@drawable/ic_launcher" />
+<View 
+  android:layout_width="fill_parent"
+  android:layout_height="2dip"
+  android:background="#FF888888" />
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        >
+	<Button
+        android:id="@+id/rec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:padding="5dp"
+    	android:textSize="30sp"
+		android:textStyle="bold"
+		android:background="@drawable/button"
+        android:text="Record" />
+    
+    <Button
+        android:id="@+id/tone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:layout_marginLeft="10dp"
+    	android:padding="5dp"
+    	android:textSize="30sp"
+		android:textStyle="bold"
+		android:background="@drawable/button"
+        android:text="Tone" />
+    
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:layout_marginLeft="20dp"
+    	android:textSize="30sp"
+		android:textStyle="bold"
+		android:background="@drawable/button"
+    	android:visibility="invisible"
+        android:text="Save" />
+</LinearLayout>
+    <HorizontalScrollView
+        android:id="@+id/galleryscroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+         >
+        <LinearLayout
+            android:id="@+id/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="invisible" >
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    
+</LinearLayout>
